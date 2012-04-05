@@ -1,0 +1,6 @@
+Author: Brian Morrow
+All code is open source
+
+This script, when run, downloads Questionable Content comics specified by the start and end values given.
+WARNING:::
+There is no error checking in this code. Will be added in V0.2
