@@ -3,7 +3,7 @@ import os
 
 start = int(raw_input('Input a starting comic: '))
 end = int(raw_input('Input an ending comic: ')) + 1
-dir = 'Questionable Content'
+dir = str(raw_input('Enter a directory to save files in.\n (Will create directory in same directory as this script.): '))
 if not os.path.exists(dir):
 	os.makedirs(dir)
 extensions = ['.png', '.jpg', '.gif']
@@ -30,6 +30,7 @@ for x in xrange(start, end):
 					if e.code == 404:
 						extension = extensions[2]
 						exists = True
+
 	print picture_page + extension
 	opener1 = urllib2.build_opener()
 	page1 = opener1.open(picture_page + extension)
