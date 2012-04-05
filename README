@@ -3,4 +3,4 @@ All code is open source
 
 This script, when run, downloads Questionable Content comics specified by the start and end values given.
 WARNING:::
-There is no error checking in this code. Will be added in V0.2
+There is no error checking in this code. It will be added in V0.2
